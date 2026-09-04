@@ -5,7 +5,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-function Contactus() {
+function ContactUs() {
   const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const apiUrlBase = "http://localhost:5003";
@@ -119,4 +119,4 @@ function Contactus() {
   );
 }
 
-export default Contactus;
+export default ContactUs;
