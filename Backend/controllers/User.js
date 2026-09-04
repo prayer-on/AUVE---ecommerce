@@ -40,7 +40,7 @@ exports.forgotPassword = async (req, res) => {
 
 const transporter = nodemailer.createTransport(transporterOptions);
 
-    const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5173";
+    const frontendUrl = process.env.FRONTEND_URL || "http://localhost:5003";
     const resetUrl = `${frontendUrl}/reset-password/${resetToken}`;
 
     const mailOptions = {
@@ -91,6 +91,8 @@ exports.resetPassword = async (req, res) => {
 };
 
 exports.signup = async (req, res) => {
+
+console.log("🔥 RICHIESTA DI SIGNUP RICEVUTA! Body inviato:", req.body);
 try {
 
     const {firstName, lastName, email, password} = req.body;
