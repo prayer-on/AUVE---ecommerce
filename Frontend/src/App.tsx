@@ -25,7 +25,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 function App () {
 
-const isMaintenanceMode = true; /* METTERE false PER ACCESSO GLOBALE */
+const isMaintenanceMode = false; /* METTERE false PER ACCESSO GLOBALE */
 const isDropImminent = false; /* METTERE true PER DARE ACCESSO AI EARLY ACCESS*/
 
  const [isUnlocked, setIsUnlocked] = useState(
