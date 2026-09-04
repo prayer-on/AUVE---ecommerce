@@ -10,7 +10,7 @@ import StatusOrd from "./Pages/StatusOrd"
 import ThankYou from "./Pages/ThankYou"
 import PassFor from "./Pages/PassFor"
 import PassRes from "./Pages/PassRes"
-import UserFAQ from "./Pages/UserFAQ";
+import UserFAQ from "./Pages/UserFaq";
 import UserShipping from "./Pages/UserShipping";
 import UserPrivacy from "./Pages/UserPrivacy";
 import UserPolicy from "./Pages/UserPolicy";
