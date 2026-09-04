@@ -3,7 +3,7 @@ import Sidebar from "../Components/Sidebar";
 import FAQ from "../Components/Faq";
 import Footer from "../Components/Footer";
 
-function UserFAQ () {
+function UserFaq () {
     
     return(
         <>
@@ -15,4 +15,4 @@ function UserFAQ () {
     );
 }
 
-export default UserFAQ
+export default UserFaq

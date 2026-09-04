@@ -10,7 +10,7 @@ import StatusOrd from "./Pages/StatusOrd"
 import ThankYou from "./Pages/ThankYou"
 import PassFor from "./Pages/PassFor"
 import PassRes from "./Pages/PassRes"
-import UserFAQ from "./Pages/UserFaq";
+import UserFaq from "./Pages/UserFaq";
 import UserShipping from "./Pages/UserShipping";
 import UserPrivacy from "./Pages/UserPrivacy";
 import UserPolicy from "./Pages/UserPolicy";
@@ -64,7 +64,7 @@ const isDropImminent = false; /* METTERE true PER DARE ACCESSO AI EARLY ACCESS*/
     <Route path="/thankyou" element={<ThankYou/>}/>
     <Route path="/forgot-password" element={<PassFor/>} />
     <Route path="/reset-password/:token" element={<PassRes/>} />
-    <Route path="/faq" element={<UserFAQ />} />
+    <Route path="/faq" element={<UserFaq/>} />
     <Route path="/shipping-returns" element={<UserShipping />} />
     <Route path="/cookie-policy" element={<UserPolicy />} />
     <Route path="/privacy-policy" element={<UserPrivacy />} />
