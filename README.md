@@ -7,7 +7,7 @@
 
 <h3>🚀 Demo:</h3>
 
-- [Live Preview](https://auve-ecommerce-backend.onrender.com)
+- [Live Preview](https://auve-ecommerce.vercel.app/)
 
 <h3>🛠️ Technologies:</h3>
 
