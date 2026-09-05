@@ -97,7 +97,6 @@ npm install
 ```bash
 npm run dev
 ```
-<br>
 
 <h3>🧠 What I've learned:</h3>
 
