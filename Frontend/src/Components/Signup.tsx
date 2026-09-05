@@ -8,7 +8,8 @@ function Signup() {
 
   const [showPassword, setShowPassword] = useState(false) 
   const navigate = useNavigate();
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
+  console.log("DEBUG - URL del Backend rilevato da Vercel:", apiUrlBase);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",

@@ -23,7 +23,7 @@ interface OrderData {
 function Orders() {
   const [orders, setOrders] = useState<OrderData[]>([]);
   const [loading, setLoading] = useState(true);
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
 
 
   useEffect(() => {

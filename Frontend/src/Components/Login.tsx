@@ -6,7 +6,7 @@ import { useState } from "react";
 function Login() {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false)
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [credentials, setCredentials] = useState({
     email: "",

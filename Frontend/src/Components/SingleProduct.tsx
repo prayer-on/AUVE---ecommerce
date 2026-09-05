@@ -19,7 +19,7 @@ function SingleProduct() {
   const [currentImage, setCurrentImage] = useState("");
   const [zoomPos, setZoomPos] = useState({ x: 0, y: 0 });
   const [isZoomed, setIsZoomed] = useState(false);
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
 
 
   const recommendedProducts = useMemo(() => {

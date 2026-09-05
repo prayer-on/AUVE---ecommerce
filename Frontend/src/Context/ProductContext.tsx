@@ -10,7 +10,7 @@ interface ProductContextType {
 
 const ProductContext = createContext<ProductContextType | undefined>(undefined);
 
-const apiUrlBase = "http://localhost:5003";
+const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
 
 console.log("API URL:", apiUrlBase);
 

@@ -8,7 +8,7 @@ import axios from "axios";
 function ContactUs() {
   const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",

@@ -149,7 +149,7 @@ const currentThreshold = getThreshold();
 const missingAmountForFree = currentThreshold - subtotal;
 
 
-  const apiUrlBase = "http://localhost:5003";
+  const apiUrlBase = import.meta.env.VITE_API_URL || "http://localhost:5003";
 
 
   useEffect(() => {
