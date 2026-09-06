@@ -169,12 +169,14 @@ cursor: pointer;
 
 &:hover{
     opacity: 0.7;
+    font-weight: 900;
 }
 }
 
 #orders-section {
 &:hover{
     opacity: 0.7;
+    font-weight: 600;
 }
 }
 
@@ -187,8 +189,10 @@ font-weight: 550;
 font-size: 10px;
 cursor: pointer;
 
+
 &:hover{
     opacity: 0.7;
+    font-weight: 600;
 }
 }
 }
@@ -980,7 +984,7 @@ button {
         color: $main-color;
         background-color: $second-color;
         border-radius: 20px;
-        padding: 0.5px 1px;
+        padding: 1px;
     }
 }
 }
@@ -1107,7 +1111,7 @@ img {
     align-items: center;
 
 span {
-    color: rgb(195, 5, 5);
+    color: rgb(235, 5, 5);
     font-family: $main-font;
     font-weight: 900;
     text-transform: uppercase;
@@ -1152,6 +1156,7 @@ span {
     letter-spacing: 1px;
   }
 }
+
 /* SINGLE PRODUCT */
 
 .product-showcase-section {
@@ -1535,7 +1540,7 @@ span {
     font-size: 15px;
     cursor: pointer;
     position: absolute;
-    top: 9%;
+    top: 8%;
     left: 40px;
 }
 }
@@ -2113,6 +2118,12 @@ button
     margin: 8rem 0 10rem 0;
     gap: 20px 0;
 
+.arrow-homepage {
+    position: absolute;
+    top: 10%;
+    left: 40px; 
+}
+
 h2 {
     font-weight: 300;
     text-transform:uppercase;
@@ -2128,8 +2139,10 @@ button {
     @include delete-product;
     padding: 7px 15px;
     text-transform: uppercase;
-    border-radius: 18px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
     font-family: $main-font;
+    font-weight: 400;
 }
 }
 
@@ -2224,6 +2237,10 @@ span {
 }
 }
 }
+
+
+
+
 
 
 /* MEDIA QUERY */
@@ -2325,7 +2342,7 @@ img {
 
 .product-showcase-section {
     .arrow-homepage {
-        top: 4%;
+        top: 3%;
         z-index: 1;
     }
 }
@@ -2377,7 +2394,7 @@ h2 {
 .auth-wrapper-main {
 
 .arrow-homepage {
-    top: 5%;
+    top: 7%;
 }
 }
     
@@ -2399,7 +2416,6 @@ input { width: 100%; }
     min-width: 100%;
 }
 }
-
 
 @media (max-width: 392px) {
 
