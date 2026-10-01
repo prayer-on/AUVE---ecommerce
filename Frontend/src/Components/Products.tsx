@@ -35,7 +35,10 @@ const {isSidebarOpen, searchTerm } = useCart();
   if (loading) {
     return (
   <div className="loading">
-    <FontAwesomeIcon icon={faHourglass} spin/>
+    <FontAwesomeIcon className="loading-home" icon={faHourglass} spin/>
+    <div>
+    LOADING PRODUCTS... PLEASE WAIT
+    </div>
   </div>
   );
   }

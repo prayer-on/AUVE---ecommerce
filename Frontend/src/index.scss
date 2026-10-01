@@ -79,7 +79,18 @@ a {
     font-size: 20px; 
     color: $second-color;
     animation: load 1s linear infinite;
-    margin: 21rem 0;
+    margin: 20rem 0;
+
+.loading-home {
+    margin-bottom: 50px;
+}
+
+div {
+    font-family: $second-font;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
 }
 
 .not-found {

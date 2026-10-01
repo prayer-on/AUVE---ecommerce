@@ -57,7 +57,6 @@ function ComingSoon({ onUnlock, showPasswordField }: { onUnlock: () => void; sho
     <div className="launch-lockdown-wrapper">
       <div className="launch-box">
         <header className="launch-header">
-          <img />
         </header>
 
         <main className="launch-content">
